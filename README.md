@@ -6,19 +6,21 @@ This repository contains three directories:
 2. CapacityFung
 3. MaximalCapacity
  
- These directories contain the necessary code to reproduce most the figures of
-the paper by just changing parameters or making slight modficiations.
 
 # Dynamics
-This directory contains the code that reproduces Fig 6 A-F  of the paper. 
-By changing the value of A results on Fig 3 and Fig 4 A  also are reproduced.
+It contains the code for reproducing Fig 6 A-F. 
+By changing the value of the parameter A results on Fig 3 and Fig 4 A are also reproduced.
+
+For generating fig4.pdf, first run `python main.py` on the `numeric/network_simulation` directory. The simulation
+will take a couple of hours depending on your machine.
 
 # CapacityFung
-This directory contains the code that reproduces Fig 4 B-C  of the paper. 
-Fig 5 can be generating by using the same code to perform the parmeter exploration described in the paper.
+It contains the code for reproducing Fig 4 B-C. 
+The same code can be used to perform the parmeter exploration described in the paper
+for generating Fig 5.
 
 # MaximalCapacity
-This directory contains the code that reproduces S7.
+It contains the code for reproducing S7.
 
 
 
