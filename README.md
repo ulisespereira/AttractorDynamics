@@ -17,7 +17,7 @@ will take a couple of hours depending on your machine.
 
 # CapacityFung
 It contains the code for reproducing Fig 4 B-C. 
-The same code can be used to perform the parmeter exploration described in the paper
+The same code can be used to perform the parameter exploration described in the paper
 for generating Fig 5.
 
 # MaximalCapacity
