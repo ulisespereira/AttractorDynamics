@@ -6,25 +6,24 @@ This repository contains three directories:
 2. CapacityFung
 3. MaximalCapacity
  
-This code can be easelly modified to reproduce most of the figures on the paper.
+With a few modifications the code in this repo reproduces most of the figures on the paper. Send me an 
+e-mail if you have further inquiries.
 
 # Dynamics
 It contains the code for reproducing Fig 6 A-F. 
-By changing the value of the parameter A from 9.5 to 3.5 and setting the input current as:
+The results on Fig 3 and Fig 4 A are reproduced by changing the value of the parameter A from 9.5 to 3.5 and setting the input current during the delay period as:
 
 1. Standard normal iid for a novel stimulus
-2. One of the stored patterns for familiar stimulus,
+2. One of the stored patterns for familiar stimulus.
 
-the results on Fig 3 and Fig 4 A are also reproduced.
 
 For generating fig4.pdf, first run `python main.py` on the `numeric/network_simulation` directory. The simulation
-will take a couple of hours depending on your machine. It will create two large files `the_dynamics.p' (~800MB) and `the_overlaps' (~1.15GB) which
-store the dynamics and the overlaps corresponding to   10 realizations of the dynamics
+will take a couple of hours depending on your machine. It will create two large files `the_dynamics.p' (~800MB) and `the_overlaps.p' (~1.15GB). They store the dynamics of 100 neurons and all the overlaps corresponding for10 realizations of the dynamics.
+
 
 # Capacity_vs_g
 It contains the code for reproducing Fig 4 B-C. 
-The same code can be used to perform the parameter exploration described in the paper
-for generating Fig 5.
+The same code can be used to perform the parameter exploration in Fig 5.
 
 # MaximalCapacity
 It contains the code for reproducing S7.
