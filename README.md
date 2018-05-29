@@ -6,7 +6,7 @@ This repository contains three directories:
 2. CapacityFung
 3. MaximalCapacity
  
-With a few modifications the code in this repo reproduces most of the figures on the paper. Send me an 
+With a few modifications, this code reproduces most of the figures on the paper. Send me an 
 e-mail if you have further inquiries.
 
 # Dynamics
@@ -18,7 +18,7 @@ The results on Fig 3 and Fig 4 A are reproduced by changing the value of the par
 
 
 For generating fig4.pdf, first run `python main.py` on the `numeric/network_simulation` directory. The simulation
-will take a couple of hours depending on your machine. It will create two large files `the_dynamics.p' (~800MB) and `the_overlaps.p' (~1.15GB). They store the dynamics of 100 neurons and all the overlaps corresponding for10 realizations of the dynamics.
+will take a couple of hours depending on your machine. It will create two large files `the_dynamics.p' (~800MB) and `the_overlaps.p' (~1.15GB). They store the dynamics of 100 neurons and all the overlaps for 10 realizations of the 8s dynamics.
 
 
 # Capacity_vs_g
