@@ -6,7 +6,10 @@ from classes.network_dynamics import *
 import cPickle as pickle
 import multiprocessing as mt
 import matplotlib.pyplot as plt
-''' Generating 100 realizations of the overlap curve '''
+import os
+directory = 'overlaps'
+if not os.path.exists(directory):
+	    os.makedirs(directory)
 
 # fixed-point or chaotic attractors as retrival state
 TypeDynamics = 'chaos'
