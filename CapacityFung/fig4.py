@@ -29,7 +29,6 @@ mpl.rcParams['lines.scale_dashes'] = False
 
 # mft curves
 PATH = 'numerical/mft_curves/curves/'
-the_alpha,overlap = pickle.load(open(PATH+'overlap_median_param.p','rb'))
 the_bg,cap_bg = pickle.load(open(PATH+'bg_vs_cap.p','rb'))
 the_xf,cap_xf = pickle.load(open(PATH+'xf_vs_cap.p','rb'))
 
