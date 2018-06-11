@@ -26,7 +26,7 @@ class NetworkDynamics:
 	def dynamics(self,period,u_init,patterns_fr):
 		T=period
 		n_neurons=100#n neurons to save
-		un=self.myTF.TF(u_init) #initial condition
+		un=u_init#self.myTF.TF(u_init) 
 		p,N=patterns_fr.shape
 		
 		mysol=[] #neurons dynammics
